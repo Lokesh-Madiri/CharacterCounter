@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin : 0;
+    text-decoration: none;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}   
+
+.main{
+    border: 1px solid black;
+    width: 35vw;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.main h1{
+    font-size: x-large;
+    padding-bottom: 15px;
+}
+
+.main hr{
+    width: 104%;
+    padding-bottom: 50px;
+}
+ 
+.main input{
+    padding-top : 5px;
+    scale : 2;
+    width: 50%
+}
+
+#text{
+    padding: 50px;
+    display: flex;
+    
+}
